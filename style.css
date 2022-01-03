@@ -4,7 +4,10 @@
   font-family: 'Poppins', sans-serif; ;
 }
 body{
-    margin-top: 10px;;
+    margin-top: 10px;
+    background-color: gray;
+    height: 550px;
+
 }
 .header a{
     text-decoration: none;
@@ -25,10 +28,12 @@ body{
 
 .section-image {
     float: right;
+    width: 50%;
 }
 
 .header{
     float: left;
+    width: 50%;
 }
 
 
@@ -36,7 +41,6 @@ body{
     
     width: 100%;
     border-radius: 50%;
-    
 }
 
 
