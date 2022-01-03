@@ -3,6 +3,45 @@
     margin: 0px;
   font-family: 'Poppins', sans-serif; ;
 }
+body{
+    margin-top: 10px;;
+}
+.header a{
+    text-decoration: none;
+}
+
+.header h2{
+    color: orange;
+}
+
+.header a{
+    width:68px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #ffffff;
+    display: block;
+    
+}
+
+.section-image {
+    float: right;
+}
+
+.header{
+    float: left;
+}
+
+
+.section-image img{
+    
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+
+
+
 
 
 
