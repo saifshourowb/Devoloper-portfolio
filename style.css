@@ -4,10 +4,17 @@
   font-family: 'Poppins', sans-serif; 
 
 }
+
+.head{
+    width: 100%;
+    height: 550px;
+}
+.mid{
+width: 80%;
+}
 .body{
     margin-top: 10px;
     background-color: gray;
-    height: 550px;
     background-size: cover;
     
 
@@ -40,7 +47,8 @@
 
 .header{
     float: left;
-    width: 50%;
+    width: 55%;
+    box-
 }
 
 
@@ -143,4 +151,5 @@
     text-align: center;
     width: 12%;
     margin-top: 10px;
+    box-shadow: 16px;
 }
