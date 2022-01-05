@@ -169,16 +169,6 @@
     box-sizing: border-box;
 }
 
-.pitar{
-    width: 40%;
-    margin-left: 90px;
-    box-shadow: 5px 10px 8px 10px #888888;
-    padding: 10px;
-    border-left: 7px solid black;
-   
-    
-
-}
 
 .pitar h2{
     text-align: center;
@@ -198,21 +188,29 @@
     margin: auto;
     box-sizing: border-box;
 }
+
 .parker{
     width: 40%;
-    margin-left: 90px;
+    margin-left: 100px;
+   
+   
     box-shadow: 5px 10px 8px 10px #888888;
     padding: 10px;
     border-left: 7px solid black;
 }
+
+
+
 .parker{
     width: 40%;
-    margin-left: 90px;
+    margin-left: 100px;
+    
     box-shadow: 5px 10px 8px 10px #888888;
     padding: 10px;
     border-left: 7px solid black;
 
 }
+
 
 .parker h2{
     text-align: center;
