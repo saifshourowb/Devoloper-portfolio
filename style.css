@@ -3,11 +3,20 @@
     padding:0px;
 }
 .header{
-    background-color: gray;
+    background:linear-gradient(green, blue);
     height: 550px;
+    
     
 
 }
+ hr{
+    border-bottom: 10px solid black;
+	border-top: none;	
+    
+}
+
+
+
 
 .mid{
     width:80%;
@@ -38,6 +47,7 @@
     font-weight: bold;
     margin-top: 10px;
     margin-left: 50px;
+    color: blue;
 }
 .header-left h3{
     text-align: center;
@@ -78,7 +88,6 @@
 
 .mid-head{
     padding: 50px;
-    background-color: pink;
     height: 400px;
 }
 
@@ -120,7 +129,7 @@
 
 .mid-left p{
     text-align: center;
-    width: 50%;
+    width: 105%;
     text-align: center;
     margin: auto;
     margin-top: 10px;
@@ -137,5 +146,105 @@
     width: 71px;
     margin: auto;
     margin-top: 20px;
+}
+
+.ses{
+    padding: 20px;
+}
+.ses-1 h2{
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color: chocolate;
+    color: #ffffff;
+    width: 30%;
+    margin: auto;
+      
+}
+
+.flex-1{
+    display: flex;
+    margin-top:50px;
+
+}
+.flex{
+    display: flex;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.pitar{
+    width: 40%;
+    margin-left: 90px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 10px;
+    border-left: 7px solid black;
+   
+    
+
+}
+
+.pitar h2{
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+}
+.pitar h3{
+    text-align: center;
+    color: gray;
+    margin-top: 5px;
+    
+}
+.pitar p{
+    width: 100%;
+    color: gray;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+.parker{
+    width: 40%;
+    margin-left: 90px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 10px;
+    border-left: 7px solid black;
+}
+.parker{
+    width: 40%;
+    margin-left: 90px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 10px;
+    border-left: 7px solid black;
+
+}
+
+.parker h2{
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+}
+.parker h3{
+    text-align: center;
+    color: gray;
+    margin-top: 5px;
+    
+}
+.parker p{
+    width: 100%;
+    color: gray;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.fotter{
+    padding: 20px;
+
+}
+
+.fotter p{
+    text-align: center;
+    color: gray;
 }
 
