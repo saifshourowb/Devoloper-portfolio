@@ -3,19 +3,13 @@
     padding:0px;
 }
 .header{
-    background:linear-gradient(green, blue);
+    background:linear-gradient(#ff7675,#e17055);
     height: 550px;
+    background-size: cover;
     
     
 
 }
- hr{
-    border-bottom: 10px solid black;
-	border-top: none;	
-    
-}
-
-
 
 
 .mid{
@@ -38,7 +32,7 @@
     font-family: tahoma;
     font-weight: bold;
     margin-top: 100px;
-    margin-left: 100px;
+    
 }
 .header-left h2{
     text-align: center;
@@ -46,7 +40,7 @@
     font-family: tahoma;
     font-weight: bold;
     margin-top: 10px;
-    margin-left: 50px;
+    
     color: blue;
 }
 .header-left h3{
@@ -56,13 +50,6 @@
     font-family: tahoma;
     margin-top: 25px;
 
-}
-
-.header-left p{
-    width: 121%;
-    text-align: center;
-    margin-left: 70px;
-    margin-top: 20px;
 }
 
 .header-left a{
@@ -75,8 +62,11 @@
     width: 60px;
     margin: auto;
     margin-top: 20px;
+    border-radius: 2px;
 }
-
+.header-left a:hover{
+    background-color: #fab1a0;
+}
 .header-right img{
     width: 500px;
     height: 400px;
@@ -92,12 +82,12 @@
 }
 
 .mid-img{
-    width: 45%;
+    width: 40%;
     float: left;
 }
 
 .mid-left{
-    width: 55%;
+    width: 60%;
     float: left;
 }
 
@@ -145,6 +135,10 @@
     width: 71px;
     margin: auto;
     margin-top: 20px;
+    border-radius: 5px;
+}
+.mid-left a:hover{
+    background-color: #9b59b6;
 }
 
 .ses{
@@ -153,7 +147,7 @@
 .ses-1 h2{
     text-align: center;
     font-size: 30px;
-    border: 1px solid black;
+    border-radius: 5px;
     padding: 10px 30px;
     background-color: chocolate;
     color: #ffffff;
@@ -161,7 +155,9 @@
     margin: auto;
       
 }
-
+.ses-1 h2:hover{
+    background-color: #e74c3c;
+}
 .flex-1{
     display: flex;
     margin-top:50px;
